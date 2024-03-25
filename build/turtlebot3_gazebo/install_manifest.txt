@@ -50,6 +50,8 @@
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+/home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/maze2/model.config
+/home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/maze2/model.sdf
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/maze.udrf
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
@@ -58,6 +60,7 @@
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+/home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/maze2.world
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
 /home/cain/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
