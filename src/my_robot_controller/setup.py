@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+import os
 from glob import glob
 
 package_name = 'my_robot_controller'
@@ -9,9 +10,10 @@ setup(
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
-        ['resource/' + package_name]),
+            ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', glob('launch/*.launch.py'))
+        ('share/' + package_name + '/maps', glob('maps/*')),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*')))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -27,6 +29,8 @@ setup(
             "pose_sub = my_robot_controller.pose_subscriber:main",
             "turtle_controller = my_robot_controller.turtle_controller:main",
             "mapping = my_robot_controller.mapping:main",
+            "controller = my_robot_controller.turtle_controller:main",
+            "navigation = my_robot_controller.navigation:main",
         ],
     },
 )
