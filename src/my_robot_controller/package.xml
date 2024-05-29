@@ -7,7 +7,7 @@
   <maintainer email="mohsen.ciw@gmail.com">mohsen</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
+  <depend>rcply</depend>
   <depend>geometry_msgs</depend>
   <depend>turtlesim</depend>
   <depend>sensor_msgs</depend>
